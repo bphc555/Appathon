@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+
+    <title>Appathon</title>
+    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+    <script src="jquery-2.1.4.min.js"></script> 
+    <script src="jquery.mobile-1.4.5.min.js"></script>
+    <script src="myscripts.js"></script>
+    <link rel="stylesheet" href="testThemeD.css">
+    <link rel="stylesheet" href="jquery.mobile.icons.min.css">
+   
+    
+    
+     
+    <!-- Inline scripts are forbidden in Firefox OS apps (CSP restrictions),
+         so we use a script file. -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--<script src="app.js" defer></script>-->
+
+  </head>
+
+
+
+<body>
+   <div data-role="page" id="page2" data-theme="d"> 
+    <div data-role="content" id = "dynamicdata" class="dynamic" align="center">
+            <p id="battery"><b>Welcome.Have a nice day!</b></p> 
+            <!--<p><button id="batterynotification" onclick="getBatteryStatus()" >Check My Battery status</button></p>-->
+            <a data-title="check battery" data-inline="true"  href="" data-icon="power" data-iconpos="left" data-role="button" onclick="getBatteryStatus()">Check Battery status</a>
+            <!--<p><button onclick="geoFindMe()">Show my location</button></p>-->
+            <a data-title="get location of you" data-inline="true"  href="" data-icon="location" data-iconpos="left" data-role="button" onclick="geoFindMe()">Get Location&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <div id="out"></div>
+    </div>
+
+  </div> 
+
+    
+    </body>

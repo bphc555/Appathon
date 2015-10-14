@@ -1,0 +1,42 @@
+#demo {
+        border: 1px solid green;
+        border-width: thick;
+        text-align:center;
+        color:red;
+       }
+      .red{
+        background-color:#0099CC;
+        }
+      .positioning{
+        text-align:center;
+      }
+      .wrapper{
+        margin-top:10px;
+        text-align:center;
+      }
+      .button{
+        position:absolute;
+        
+      }
+.xyz{
+  background-color: grey;
+}
+
+.xyz2{
+  background-color: grey;
+  bottom : 0;
+  left: :0;
+  position: absolute;
+  
+}
+header{
+  background-color: grey;
+}
+footer{
+ background-color: lightgrey;
+  width: 100%;
+  position:absolute;
+  bottom: 0;
+  left:0;
+
+}
