@@ -31,60 +31,34 @@
           <ul>
             <li><a href="#page1" data-icon="star" data-iconpos="top" >Most Visited</a></li>
             <li><a href="" id="share" data-icon="action" data-iconpos="top"  data-l10n-id="share-url" onclick="share()" class="ui-btn-active- ui-state-persist">Share</a></li>
-            <!--<li> <button id="share" data-icon="action" data-iconpos="top" data-l10n-id="share-url" onclick="share()" class="ui-btn-active- ui-state-persist">Share URL</button></li>-->
             <li><a href="#mypanel" data-icon="bullets" data-iconpos="top"> BBC News</a></li>
-           </ul>
-         </div> 
+          </ul>
+        </div> 
       </div><!--header ends here-->
       
       <div data-role="content">
         <div align = "center">
-            <!--<h1 >Welcome.</h1>-->
-         <iframe src="default.htm" name ="iframe_a" id = "iframe" style= "height:450px; width:300px; border:none"></iframe>
-         <p><a href = "" target="iframe_a"></a></p>
+          <iframe src="default.htm" name ="iframe_a" id = "iframe" style= "height:450px; width:300px; border:none"></iframe>
+          <p><a href = "" target="iframe_a"></a></p>
 
-          </div>
-        <!--<div align="left">
-            <label><input type="checkbox" name="checkbox-0">I agree</label>
-            <label><input type="radio" name="radio-0">option 1</label>
-            <label><input type="radio" name="radio-1">option 2</label>
-            <label><input type="range" min="0" max="100"></input>
-        </div>--> <!--Align left ends here-->
-            <!--<div data-role="collapsible" data-content-theme="d" data-collapsed-icon="gear" data-expanded-icon="phone">
-              <h4>I am a heading</h4>
-              I am a collapsible elememnt.You can click here to open me. By default I am closed.
-              <div data-role="collapsible" data-content-theme="d" data-collapsed-icon="gear" data-expanded-icon="phone">
-              <h4>I am a heading</h4>
-              I am a collapsible elememnt.You can click here to open me. By default I am closed.
-            </div>
-            </div>
-          </div>-->
-           <div data-role="panel" id="mypanel" data-position="left" data-display="overlay" data-theme="d">
+        </div>
+        <div data-role="panel" id="mypanel" data-position="left" data-display="overlay" data-theme="d">
               <h style="text-align:center"><b>News Items</b></h>
               <label><input type="button" id="Entertainment" value="Entertainment" onclick="JavaScript:setURL('http://www.bbc.com/news/entertainment_and_arts');" href="#cover"></label>
-    <!--<a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close panel</a>-->
-
+    
               <label><input type="button" id="Technology" value="Technology" onclick="JavaScript:setURL('http://www.bbc.com/news/technology');"></label>
               <label><input type="button" id="Sport" value="Sport" onclick="JavaScript:setURL('http://www.bbc.com/sport/0/');"></label>
               <label><input type="button" id="Business" value="Business" onclick="JavaScript:setURL('http://www.bbc.com/news/business');"></label>
               <label><input type="button" id="Health" value="Health" onclick="JavaScript:setURL('http://www.bbc.com/news/health');"></label>
             
-          </div>
+        </div><!--My panel ends here-->
             
-          <!--<a href="#mypanel">News</a>-->
-           
-          <!--<select id="select-based-flipswitch" data-role="flipswitch">
-              <option value="leave">Bye</option>
-              <option value="arrive">Hi</option>
-          </select>-->
         
       </div>  <!--content ends here-->
 
       <div data-position="fixed" data-role="footer">
         <div align = "center">
     
-          <!--<input data-inline="true" data-icon="arrow-l" data-iconpos="notext" type="button" value="Page1" onclick="showAlert()"/>
-          <input  data-inline="true"  data-icon="home" data-iconpos="notext" type="button" value="Page2" onclick="showAlert()"/>-->
           <a  data-inline="true"  href="javascript:history.back()" data-icon="arrow-l" data-iconpos="notext" data-role="button" >TestLink</a>
           <a  data-inline="true"  href="#page2" target="iframe_a" data-icon="home" data-iconpos="notext" data-role="button" >TestLink</a>
           <a  data-inline="true"  href="javascript:history.forward()" data-transition="flip" data-icon="arrow-r" data-iconpos="notext" data-role="button" >TestLink</a>
@@ -92,18 +66,13 @@
      </div><!--footer ends here-->
   </div><!--page id cover ends here-->
     
-   <div data-role="page" id ="page1" data-theme="d">
+  <!--Page1 starts here-->
+  <div data-role="page" id ="page1" data-theme="d">
      
-     <div data-role="header" align="center" style="background-color:white">
+    <div data-role="header" align="center" style="background-color:white">
       <br>
       <div>
           
-          <!--<a  data-inline="true"  href="" image-src="logo32.png" data-role="button" data-iconpos="notext" >TestLink</a>-->
-          <!--<button data-inline="true" data-role="button" data-iconpos="notext">
-            <img src="logo48.png" alt="Save icon"/>
-            Save
-          </br>
-          </button>-->
           <input data-inline="true" type="image" src="facebook.png"  id="fb" onclick="location.href='https://www.facebook.com/?_rdr=p';" height="36" width="36"/>
          
 
@@ -115,12 +84,11 @@
          <input data-inline="true" type="image" src="wiki.jpeg"  id="wiki"  onclick="location.href='https://www.wikipedia.org/';" height="36" width="36"/>
          
 
-          </div>
-          <br>
+      </div>
+      <br>
     </div>
     <div data-role="content">
       <div align = "center">
-          <!--<h1 >Page 1.</h1>-->
           
        <iframe src="http://www.google.com/custom?q=&btnG=Search" name ="iframe_a" id = "iframe" style= "height:300px; width:300px; border:none"></iframe>
        <a href="http://www.google.com/custom?q=&btnG=Search" target="iframe_a"></a>
@@ -129,28 +97,23 @@
     </div>
 
     <div data-position="fixed" data-role="footer">
-       <div align = "center">
+      <div align = "center">
     
-        <!--<input data-inline="true" data-icon="arrow-l" data-iconpos="notext" type="button" value="Page1" onclick="showAlert()"/>
-        <input  data-inline="true"  data-icon="home" data-iconpos="notext" type="button" value="Page2" onclick="showAlert()"/>-->
-        <!--<a  data-inline="true"  href="#cover" data-icon="arrow-l" data-iconpos="notext" data-role="button" >TestLink</a>-->
          <a  data-inline="true"  href="#cover" data-icon="home" data-iconpos="notext" data-role="button" >TestLink</a>
-         <!--<a  data-inline="true"  href="" data-icon="arrow-r" data-iconpos="notext" data-role="button" >TestLink</a>-->
       </div>
     </div>
-    </div>
+  </div><!--Page1 ends here-->
   
-    <div data-role="page" id="page2" data-theme="d"> 
+  <!--Page2 starts here-->
+  <div data-role="page" id="page2" data-theme="d"> 
     <div data-role="content" id = "dynamicdata" class="dynamic" align="center">
             <p id="battery"><b>Welcome.Have a nice day!</b></p> 
-            <!--<p><button id="batterynotification" onclick="getBatteryStatus()" >Check My Battery status</button></p>-->
             <a title="check battery" data-inline="true" href="" data-icon="power" data-iconpos="left" data-role="button" onclick="getBatteryStatus()">Check Battery status</a>
-            <!--<p><button onclick="geoFindMe()">Show my location</button></p>-->
             <a  data-inline="true"  href="" data-icon="location" data-iconpos="left" data-role="button" onclick="geoFindMe()">Get Location&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
             <div id="out"></div>
     </div>
 
-  </div> 
+  </div><!--Page2 ends here--> 
 
     
     </body>
